@@ -24,7 +24,7 @@ export default class SavedList extends Component {
           </NavLink>
         ))}
         
-        <Link className="home-button" to='../'>Home</Link>
+        <Link className="home-button" to='/'>Home</Link>
         {/* <div className='home-button' onClick={this.linktoHome}>Home</div> */}
        
       </div>

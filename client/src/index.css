@@ -34,6 +34,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* text-decoration: none;
+  color:black; */
 }
 
 .saved-list h3 {
@@ -42,6 +44,12 @@ body {
 
 .saved-movie {
   margin: 0 10px;
+  
+}
+
+.saved-list a{
+  text-decoration: none;
+  color:black;
 }
 
 .saved-list a.active{
