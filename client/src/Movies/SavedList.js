@@ -8,6 +8,10 @@ export default class SavedList extends Component {
     
   }
 
+  // linktoHome = (event) => {
+  //   event.preventDefault();
+  //   this.props.history.push('./');
+  // }
   
 
   render() {
@@ -19,6 +23,7 @@ export default class SavedList extends Component {
         ))}
         
         <Link className="home-button" to='../'>Home</Link>
+        {/* <div className='home-button' onClick={this.linktoHome}>Home</div> */}
        
       </div>
     );
